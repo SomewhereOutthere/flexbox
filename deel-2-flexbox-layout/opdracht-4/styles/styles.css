@@ -1,1 +1,68 @@
 /*Schrijf hier jouw CSS*/
+
+body {
+    border: 2px dashed blue;
+    display: flex;
+    height:  100vh;
+
+    flex-direction: row;
+}
+
+nav {
+    flex-basis: 20vw;
+    flex-grow: 0;
+    flex-shrink: 0;
+
+
+}
+
+.inner-row {
+    border: 2px dashed green;
+    display: flex;
+    height: 85vh;
+
+}
+
+header {
+    display: flex;
+    border: 2px dashed orange;
+    width: 80vw;
+    height: 15vh;
+    flex-grow: 0;
+    flex-shrink: 0;
+    /*flex-basis: 80vw;*/
+}
+
+article {
+    display: flex;
+    width: 60vw;
+    height: 70vh;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+footer {
+    display: flex;
+    height: 15vh;
+    flex-grow: 0;
+    flex-shrink: 0;
+
+}
+
+aside {
+
+    display: flex;
+
+    width: 30% ;
+    flex-grow: 0;
+    flex-shrink: 0;
+
+
+}
+
+/*article, footer {*/
+/*    display: flex;*/
+/*    border: 2px dashed purple;*/
+    /*height: 15vh;*/
+
+/*}*/

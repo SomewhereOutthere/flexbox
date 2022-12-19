@@ -52,7 +52,7 @@ footer {
 
 article {
     flex-grow: 1;
-    flex-basis: 60%;
+    flex-basis: 40%;
     flex-shrink: 1;
 
 }
