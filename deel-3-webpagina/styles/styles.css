@@ -1,1 +1,38 @@
 /*Schrijf hier jouw css*/
+
+h1, h3 {
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    background-color: #030027;
+    color: #E6EAEB;
+    justify-content: flex-end;
+
+
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 40px;
+    display: flex;
+
+
+}
+
+li {
+    display: flex;
+    margin: 10px;
+
+
+}
+
+.analy {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+
