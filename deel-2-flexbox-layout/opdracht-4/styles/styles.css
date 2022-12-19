@@ -3,18 +3,18 @@
 body {
     border: 2px dashed blue;
     display: flex;
-    height:  100vh;
-
+    height: 100vh;
     flex-direction: row;
 }
 
 nav {
-    flex-basis: 20vw;
+    flex-basis: 300px;
     flex-grow: 0;
     flex-shrink: 0;
 
 
 }
+
 
 .inner-row {
     border: 2px dashed green;
@@ -26,11 +26,26 @@ nav {
 header {
     display: flex;
     border: 2px dashed orange;
-    width: 80vw;
-    height: 15vh;
-    flex-grow: 0;
+    /*flex-basis: 100px;*/
+    width: 90vw;
+    /*height: 15vh;*/
+    flex-grow: 1;
     flex-shrink: 0;
-    /*flex-basis: 80vw;*/
+    /*flex-basis: 100px;*/
+}
+
+.outer-col-2 {
+    border: 2px dashed black;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.inner-col {
+    border: 2px dashed pink;
+    display: flex;
+    flex-direction: column;
+
 }
 
 article {
@@ -43,6 +58,7 @@ article {
 
 footer {
     display: flex;
+    flex-basis: 100px;
     height: 15vh;
     flex-grow: 0;
     flex-shrink: 0;
@@ -50,10 +66,11 @@ footer {
 }
 
 aside {
-
+    border: 2px dashed brown;
     display: flex;
-
-    width: 30% ;
+    /*flex-basis: 200px;*/
+    /**/
+    width: 33%;
     flex-grow: 0;
     flex-shrink: 0;
 
@@ -63,6 +80,6 @@ aside {
 /*article, footer {*/
 /*    display: flex;*/
 /*    border: 2px dashed purple;*/
-    /*height: 15vh;*/
+/*height: 15vh;*/
 
 /*}*/
