@@ -5,15 +5,19 @@ h1, h3 {
 }
 
 body {
-
-    /*height: 100vh;*/
+    margin: auto;
+    /*border: 2px dashed blue;*/
+    display: flex;
+    flex-direction: column;
     background-color: #f2f3d9;
 
 }
 
-header {
-    flex-basis: 20px;
+div {
+    /*border: 2px dashed yellow;*/
 }
+
+
 .left-text {
 
     background-color: #c16e70;
@@ -34,10 +38,12 @@ header {
 }
 
 main {
+    /*border: 2px dashed green;*/
     display: flex;
     flex-direction: row;
     justify-content: center;
     gap: 30px;
+    /*margin: auto;*/
 
 
 
@@ -50,12 +56,12 @@ p {
 
 }
 
-/*nav {*/
-/*    background-color: #030027;*/
-/*}*/
+
 
 
 nav {
+
+    /*border: 2px dashed grey;*/
     display: flex;
     flex-direction: column;
     background-color: #030027;
@@ -66,32 +72,27 @@ nav {
 
 ul {
     list-style: none;
-    /*padding: px;*/
-    /*margin: 5px;*/
     display: flex;
     justify-content: flex-end;
     align-items: baseline;
+    gap: 100px;
 }
 
 li {
     /*margin: 40px;*/
-    padding: 40px;
+    /*padding: 40px;*/
     font-size: 20px;
+    gap: 10px;
 
 }
 
 
 
 
- .analy {
+ .nav-analytica {
     flex-grow: 4;
      font-size: 40px;
 
 
 }
 
-
-/*.nav-rightside {*/
-/*    display: flex;*/
-/*    justify-content: space-evenly;*/
-/*}*/

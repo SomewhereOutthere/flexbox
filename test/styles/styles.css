@@ -1,0 +1,8 @@
+
+
+body {
+    height: 100vh;
+    border: 2px dashed green;
+    display: flex;
+    flex-direction: column;
+}
